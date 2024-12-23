@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Form Labels */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151; /* Text Gray */
+}
+
+/* Form Inputs */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db; /* Border Gray */
+    border-radius: 4px;
+    background-color: #f9fafb; /* Light Gray */
+    font-size: 14px;
+    color: #111827; /* Text Black */
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2563eb; /* Blue Border */
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+/* Submit Button */
+.btn-submit {
+    display: inline-block;
+    background-color: #2563eb; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #1e3a8a; /* Dark Blue */
+}
+/* Estilos para el título */
+.user-option-title {
+    font-size: 30px; /* Tamaño de la letra */
+    background-color: #007bff50; /* Azul */
+    color: rgb(229, 119, 29);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las opciones */
+.user-option-item {
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Negrita */
+    background-color: #007bff1d; /* Gris claro */
+    color: #ffffff; /* Texto oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover en opciones */
+.user-option-item:hover {
+    background-color: #e28700; /* Azul */
+    color: white;
+    transform: scale(1.05);
+}
+.user-option-sub {
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Negrita */
+    background-color: #007bff07; /* Gris claro */
+    color: #ffffff87; /* Texto oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.custom-button {
+    background-color: #e63946; /* Rojo intenso */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    border: none;
+    display: inline-block;
+}
+
+.custom-button:hover {
+    background-color: #ff6f6f; /* Rojo más claro al pasar el cursor */
+    cursor: pointer;
+}
+.green-button {
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    border: none;
+    display: inline-block;
+}
+
+.green-button:hover {
+    background-color: #aaffc3; /* Verde claro limón al pasar el cursor */
+    cursor: pointer;
+}
+.green-tit {
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    border: none;
+    display: inline-block;
+}
