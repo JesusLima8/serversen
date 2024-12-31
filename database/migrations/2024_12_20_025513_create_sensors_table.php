@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('name')->unique(); // Nombre del sensor
             $table->boolean('is_visible')->default(false); // Determina si el sensor es visible para los usuarios
-            $table->string('location')->after('name');
+           // $table->string('location')->after('name');
             $table->timestamps();
         });
     }
